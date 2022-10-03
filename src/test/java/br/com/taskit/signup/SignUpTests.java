@@ -42,16 +42,16 @@ public class SignUpTests {
     @Test
     @DisplayName("Fazer login na aplicação com um dado valor")
     public void testLogarComUmUsuarioregistrado(){
-        WebDriverManager.chromedriver().setup();
-        WebDriver navegador = new ChromeDriver();
 
-        navegador.get("http://www.juliodelima.com.br/taskit");
-        navegador.findElement(By.linkText("Sign in")).click();
-        navegador.findElement(By.id("login-sign-in")).sendKeys("adriana0000000001");
-        navegador.findElement(By.id("password-sign-in")).sendKeys("123456");
-        navegador.findElement(By.id("btn-submit-sign-in")).click();
 
-        navegador.quit();
+
+        this.navegador.get("http://www.juliodelima.com.br/taskit");
+        this.navegador.findElement(By.linkText("Sign in")).click();
+        this.navegador.findElement(By.id("login-sign-in")).sendKeys("adriana0000000001");
+        this.navegador.findElement(By.id("password-sign-in")).sendKeys("123456");
+        this.navegador.findElement(By.id("btn-submit-sign-in")).click();
+
+        this.navegador.quit();
 
 
     }
