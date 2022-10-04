@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-
 @DisplayName("Testes automatizados da funcionalidade de login")
 public class SignUpTests {
 
