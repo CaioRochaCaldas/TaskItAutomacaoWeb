@@ -1,4 +1,0 @@
-Podemos concluir que Page object é colocar funcinalidades em suas devidas classes
-- devemos organizar os dados variaveis (Ex: login, registro ,etc) em variaveis que mudam
-
-Page Fatory é para apontar organizando os elementos do html mais formatados
